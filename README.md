@@ -3,7 +3,7 @@
 This is a Streamlit app showing earthquake EDA and interactive maps.
 
 - [Nepal Earthquake Map](https://laffi01.github.io/Earthquake_Nepal/nepal_earthquakes_map.html)
-- [Earthquake Profile Report](https://laffi01.github.io/earthquake-nepal/earthquake_profile.html)
+- [Earthquake Profile Report](https://laffi01.github.io/Earthquake_Nepal/earthquake_profile.html)
 
 
 

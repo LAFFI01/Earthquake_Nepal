@@ -4,4 +4,4 @@ This is a Streamlit app showing earthquake EDA and interactive maps.
 
 ## Screenshot
 
-![Dashboard Screenshot](Screenshort/01.png,02.png,03.png)
+![Dashboard Screenshot](Screenshort/03.png)

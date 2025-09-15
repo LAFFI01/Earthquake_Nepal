@@ -1,3 +1,4 @@
+# Earthquake is a natural disaster so , THis project is just for learning proposes.
 # Nepal Earthquake Dashboard
 
 This is a Streamlit app showing earthquake EDA and interactive maps.

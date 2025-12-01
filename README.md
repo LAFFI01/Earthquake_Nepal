@@ -12,3 +12,6 @@ This is a Streamlit app showing earthquake EDA and interactive maps.
 ![EDA Screenshot](Screenshort/01.png)
 ![EDA Screenshot](Screenshort/02.png)
 ![MAP Screenshot](Screenshort/03.png)
+
+# Dataset
+- [Earthquake Datasets](https://www.kaggle.com/datasets/sandeshkhatri/earthquake-nepal-1994-2025)

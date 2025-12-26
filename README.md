@@ -18,6 +18,7 @@ This is a Streamlit app showing earthquake EDA and interactive maps.
 
 
 # Process
-- Scraping (Total Data scraped 1259 )
-    - Preprocessing
-        - Seprating Date
+- Scraping 
+- Preprocessing
+- EDA
+- Model_Building

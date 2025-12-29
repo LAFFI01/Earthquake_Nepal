@@ -9,9 +9,9 @@ from streamlit_folium import st_folium
 # ------------------------------
 # Load data
 # ------------------------------
-df = pd.read_csv("earthquakes_nepal.csv")
-df['ad_date'] = pd.to_datetime(df['ad_date'], errors='coerce')
-df['year'] = df['ad_date'].dt.year
+df = pd.read_csv("02_EDA/earthquake_Nepal_EDA_AFTER.csv")
+df['date_ad'] = pd.to_datetime(df['date_ad'], errors='coerce')
+df['year'] = df['date_ad'].dt.year
 
 # Categorize magnitude
 df['category'] = pd.cut(df['magnitude'], bins=[-float('inf'),5,6,float('inf')],
@@ -70,3 +70,5 @@ for _, row in filtered_df.iterrows():
         popup=f"Epicenter: {row['epicenter']}<br>Magnitude: {row['magnitude']}<br>Date: {row['ad_date'].date()}"
     ).add_to(cluster)
 st_data = st_folium(m, width=700)
+
+
